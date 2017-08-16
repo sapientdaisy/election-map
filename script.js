@@ -59,7 +59,7 @@ setStateResults = function(state){
         else {
             theStates[state].rgbColor = [11, 32, 57];
         }
-
+//reminder that {} needed at each piece of the if else -- each of them is its own function
 //fill in state results table
         var stateInfoTable = document.getElementById('stateResults');
         var header = stateInfoTable.children[0];
